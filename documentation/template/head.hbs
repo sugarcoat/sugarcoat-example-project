@@ -1,0 +1,12 @@
+{{!--Custom fonts --}}
+<link href='https://fonts.googleapis.com/css?family=Roboto+Mono:300|Arvo:400,700' rel='stylesheet' type='text/css'>
+{{!--Add in body tag styles --}}
+<link rel="stylesheet" type="text/css" href="library/css/sugarcoat.css">
+
+{{!--Default sugarcoat head.hbs --}}
+<link rel="stylesheet" type="text/css" href="sugarcoat/css/sugarcoat.css">
+{{#if this.settings.prefix.assets}}
+{{#each this.settings.prefix.assets}}
+  <link rel="stylesheet" type="text/css" href="{{ prefixed }}">
+{{/each}}
+{{/if}}

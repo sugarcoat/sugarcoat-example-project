@@ -5,9 +5,10 @@ var library = {
         dest: './documentation',
         template: {
             partials: [
-                'documentation/template'
+                'documentation/template/*.hbs'
             ],
             assets: [
+                'sugarcoat',
                 'library/images/octicons-external-link.svg',
                 'library/images/sugarcoat-logo.png'
             ]

@@ -4,8 +4,9 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:300|Arvo:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="library/css/sugarcoat.css">
 <link rel="stylesheet" type="text/css" href="sugarcoat/css/sugarcoat.css">
-<link rel="stylesheet" type="text/css" href="../library/dist/prefixed-index.css">
+  <link rel="stylesheet" type="text/css" href="sugarcoat/css/prefixed-index.css">
 </head>
 <body>
 
@@ -20,7 +21,8 @@
  */
 -->
 <div class="sugar-masthead">
-  	<h1>Pattern Library</h1>  
+  	<img src="library/images/sugarcoat-logo.png" />
+  	<h1>Sugarcoat Pattern Library</h1>  
 </div>
       <!--
 /**
@@ -122,7 +124,8 @@
  */
 -->
 <div class="sugar-masthead">
-  	<h1>Pattern Library</h1>  
+  	<img src="library/images/sugarcoat-logo.png" />
+  	<h1>Sugarcoat Pattern Library</h1>  
 </div>
         <!--
 /**
@@ -131,9 +134,9 @@
  *
  */
 -->
-<section id="sugar-colors" class="sugar-section-color">
+<section id="sugar-colors" class="sugar-section sugar-section-color">
   <div class="sugar-section-wrapper">
-  <h2><a href="#sugar-colors">Colors</a></h2>
+  <h2 class="sugar-h2"><a href="#sugar-colors">Colors</a></h2>
       <div class="sugar-component">
           <div id="sugar-library-styles-config-colors-css-0">
 
@@ -144,7 +147,7 @@
  *
  */
 -->
-      <h3>Primary Colors</h3>
+      <h3 class="sugar-h3">Primary Colors</h3>
             <div class="sugar-colors">              <div class="sugar-color sugar-color-commented">
                 <div class="sugar-color-swatch" style="background-color: #703030;">
                 </div>
@@ -209,7 +212,7 @@
  *
  */
 -->
-      <h3>Secondary Colors</h3>
+      <h3 class="sugar-h3">Secondary Colors</h3>
             <div class="sugar-colors">              <div class="sugar-color ">
                 <div class="sugar-color-swatch" style="background-color: #E3CDA4;">
                 </div>
@@ -249,7 +252,7 @@
  *
  */
 -->
-<p class="sugar-file">File: <span class="sugar-path">library/styles/config/colors.css</span></p>
+<p class="sugar-file sugar-p">File: <span class="sugar-path">library/styles/config/colors.css</span></p>
       </div>
   </div>
 </section>
@@ -260,9 +263,9 @@
  *
  */
 -->
-<section id="sugar-typography" class="sugar-section-type">
+<section id="sugar-typography" class="sugar-section sugar-section-type">
   <div class="sugar-section-wrapper">
-    <h2><a href="#sugar-typography">Typography</a></h2>    
+    <h2 class="sugar-h2"><a href="#sugar-typography">Typography</a></h2>
       <div class="sugar-component">
         <div id="sugar-library-styles-base-typography-css-0"><!--
 /**
@@ -271,30 +274,33 @@
  *
  */
 -->
-      <h3>Font Families</h3>    
-            <div class="sugar-type-file">    
+      <h3 class="sugar-h3">Font Families</h3>
+            <div class="sugar-type-file">
                 <div class="sugar-type-container">
                   <div class="sugar-type-example">
-                    <p style="font-family: &#x27;Helvetica&#x27;, Arial;">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="sugar-p" style="font-family: &#x27;Helvetica&#x27;, Arial;">The quick brown fox jumps over the lazy dog.</p>
                   </div>
-                  <pre class="sugar-var">--font-body</pre><pre class="sugar-val">&#x27;Helvetica&#x27;, Arial;</pre>    
-                </div>    
+                  <pre class="sugar-var sugar-pre">--font-body</pre>
+                  <pre class="sugar-val sugar-pre">&#x27;Helvetica&#x27;, Arial;</pre>
+                </div>
                 <div class="sugar-type-container">
                   <div class="sugar-type-example">
-                    <p style="font-family: &#x27;Arvo&#x27;, Georgia;">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="sugar-p" style="font-family: &#x27;Arvo&#x27;, Georgia;">The quick brown fox jumps over the lazy dog.</p>
                   </div>
-                  <pre class="sugar-var">--font-head</pre><pre class="sugar-val">&#x27;Arvo&#x27;, Georgia;</pre>    
-                </div>    
+                  <pre class="sugar-var sugar-pre">--font-head</pre>
+                  <pre class="sugar-val sugar-pre">&#x27;Arvo&#x27;, Georgia;</pre>
+                </div>
                 <div class="sugar-type-container">
                   <div class="sugar-type-example">
-                    <p style="font-family: &#x27;Roboto Mono&#x27;, &#x27;Monospace&#x27;;">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="sugar-p" style="font-family: &#x27;Roboto Mono&#x27;, &#x27;Monospace&#x27;;">The quick brown fox jumps over the lazy dog.</p>
                   </div>
-                  <pre class="sugar-var">--font-mono</pre><pre class="sugar-val">&#x27;Roboto Mono&#x27;, &#x27;Monospace&#x27;;</pre>    
-                    <p class="sugar-type-desc">For displaying labels and code</p>    
-                </div>    
-            </div>    
+                  <pre class="sugar-var sugar-pre">--font-mono</pre>
+                  <pre class="sugar-val sugar-pre">&#x27;Roboto Mono&#x27;, &#x27;Monospace&#x27;;</pre>
+                    <p class="sugar-type-desc sugar-p">For displaying labels and code</p>
+                </div>
+            </div>
         </div>
-    
+
         <!--
 /**
  *
@@ -302,8 +308,8 @@
  *
  */
 -->
-<p class="sugar-file">File: <span class="sugar-path">library/styles/base/typography.css</span></p>      
-      </div>    
+<p class="sugar-file sugar-p">File: <span class="sugar-path">library/styles/base/typography.css</span></p>
+      </div>
   </div>
 </section>
         <!--
@@ -313,9 +319,9 @@
  *
  */
 -->
-<section id="sugar-variables" class="sugar-section-variable">
+<section id="sugar-variables" class="sugar-section sugar-section-variable">
   <div class="sugar-section-wrapper">
-    <h2><a href="#sugar-variables">Variables</a></h2>  
+    <h2 class="sugar-h2"><a href="#sugar-variables">Variables</a></h2>
       <div class="sugar-component" id="sugar-library-styles-config-variables-css-0">
           <!--
 /**
@@ -324,7 +330,7 @@
  *
  */
 -->
-      <h3>Variables</h3>
+      <h3 class="sugar-h3">Variables</h3>
         <div class="sugar-table-container">
             <table class="sugar-var-table">
               <thead>
@@ -344,7 +350,7 @@
                     <td>
                         <p>Used for form-type elements</p>
                     </td>
-                  </tr>            
+                  </tr>
             </table>
           </div>
 
@@ -355,8 +361,8 @@
  *
  */
 -->
-<p class="sugar-file">File: <span class="sugar-path">library/styles/config/variables.css</span></p>      
-      </div>    
+<p class="sugar-file sugar-p">File: <span class="sugar-path">library/styles/config/variables.css</span></p>
+      </div>
   </div>
 </section>
         <!--
@@ -367,11 +373,11 @@
  */
 -->
 
-<section id="sugar-mixins" class="sugar-section-default">
+<section id="sugar-mixins" class="sugar-section sugar-section-default">
   <div class="sugar-section-wrapper">
-    <h2><a href="#sugar-mixins">Mixins</a></h2>      
+    <h2 class="sugar-h2"><a href="#sugar-mixins">Mixins</a></h2>
         <div id="sugar-library-styles-config-mixins-css-0" class="sugar-component">
-                                
+
           <!--
 /**
  *
@@ -379,8 +385,8 @@
  *
  */
 -->
-      <h3>Bordered element</h3>
-      <p class="sugar-file-desc">Grey backdrop for an element with borders</p>        
+      <h3 class="sugar-h3">Bordered element</h3>
+      <p class="sugar-file-desc sugar-p">Grey backdrop for an element with borders</p>
           <!--
 /**
  *
@@ -389,7 +395,7 @@
  */
 -->
 <div class="sugar-preview-block">
-</div>        
+</div>
           <!--
 /**
  *
@@ -409,7 +415,7 @@
                 <span class="sugar-tag-description">@extend %backdrop;</span>
             </dd>
   </dl>
-</div>        
+</div>
           <!--
 /**
  *
@@ -417,12 +423,12 @@
  *
  */
 -->
-<p class="sugar-file">File: <span class="sugar-path">library/styles/config/mixins.css</span></p>      
+<p class="sugar-file sugar-p">File: <span class="sugar-path">library/styles/config/mixins.css</span></p>
         </div>
-      
-      
+
+
         <div id="sugar-library-styles-config-mixins-css-1" class="sugar-component">
-                                
+
           <!--
 /**
  *
@@ -430,8 +436,8 @@
  *
  */
 -->
-      <h3>Retina Image</h3>
-      <p class="sugar-file-desc">Insert to render retina background image on element</p>        
+      <h3 class="sugar-h3">Retina Image</h3>
+      <p class="sugar-file-desc sugar-p">Insert to render retina background image on element</p>
           <!--
 /**
  *
@@ -440,7 +446,7 @@
  */
 -->
 <div class="sugar-preview-block">
-</div>        
+</div>
           <!--
 /**
  *
@@ -474,7 +480,7 @@
                 <span class="sugar-tag-description">100px</span>
             </dd>
   </dl>
-</div>        
+</div>
           <!--
 /**
  *
@@ -482,10 +488,10 @@
  *
  */
 -->
-<p class="sugar-file">File: <span class="sugar-path">library/styles/config/mixins.css</span></p>      
+<p class="sugar-file sugar-p">File: <span class="sugar-path">library/styles/config/mixins.css</span></p>
         </div>
-      
-    
+
+
   </div>
 </section>
         <!--
@@ -496,11 +502,11 @@
  */
 -->
 
-<section id="sugar-elements" class="sugar-section-default">
+<section id="sugar-elements" class="sugar-section sugar-section-default">
   <div class="sugar-section-wrapper">
-    <h2><a href="#sugar-elements">Elements</a></h2>      
+    <h2 class="sugar-h2"><a href="#sugar-elements">Elements</a></h2>
         <div id="sugar-library-styles-base-buttons-css-0" class="sugar-component">
-                                
+
           <!--
 /**
  *
@@ -508,7 +514,7 @@
  *
  */
 -->
-      <h3>Button</h3>        
+      <h3 class="sugar-h3">Button</h3>
           <!--
 /**
  *
@@ -517,7 +523,7 @@
  */
 -->
 <div class="sugar-preview-block">
-      <p class="sugar-example-text">Example</p>
+      <p class="sugar-example-text sugar-p">Example</p>
       <div class="sugar-preview">
         <div class="sugar-example">
 
@@ -525,10 +531,10 @@
 
         </div>
 
-        <pre>&lt;a class&#x3D;&quot;btn&quot; href&#x3D;&quot;#&quot;&gt;a.btn&lt;/a&gt;</pre>
+        <pre class="sugar-pre">&lt;a class&#x3D;&quot;btn&quot; href&#x3D;&quot;#&quot;&gt;a.btn&lt;/a&gt;</pre>
 
       </div>
-      <p class="sugar-example-text">Example</p>
+      <p class="sugar-example-text sugar-p">Example</p>
       <div class="sugar-preview">
         <div class="sugar-example">
 
@@ -536,10 +542,10 @@
 
         </div>
 
-        <pre>&lt;button class&#x3D;&quot;btn cta&quot;&gt;button.btn.cta&lt;/button&gt;</pre>
+        <pre class="sugar-pre">&lt;button class&#x3D;&quot;btn cta&quot;&gt;button.btn.cta&lt;/button&gt;</pre>
 
       </div>
-</div>        
+</div>
           <!--
 /**
  *
@@ -573,7 +579,7 @@
 
 
   </dl>
-</div>        
+</div>
           <!--
 /**
  *
@@ -581,10 +587,10 @@
  *
  */
 -->
-<p class="sugar-file">File: <span class="sugar-path">library/styles/base/buttons.css</span></p>      
+<p class="sugar-file sugar-p">File: <span class="sugar-path">library/styles/base/buttons.css</span></p>
         </div>
-      
-    
+
+
   </div>
 </section>
         <!--
@@ -595,11 +601,11 @@
  */
 -->
 
-<section id="sugar-components" class="sugar-section-default">
+<section id="sugar-components" class="sugar-section sugar-section-default">
   <div class="sugar-section-wrapper">
-    <h2><a href="#sugar-components">Components</a></h2>      
+    <h2 class="sugar-h2"><a href="#sugar-components">Components</a></h2>
         <div id="sugar-library-styles-note-defaults-css-0" class="sugar-component">
-                                
+
           <!--
 /**
  *
@@ -607,8 +613,8 @@
  *
  */
 -->
-      <h3>Note</h3>
-      <p class="sugar-file-desc">Used for any aside-type information, or alert boxes</p>        
+      <h3 class="sugar-h3">Note</h3>
+      <p class="sugar-file-desc sugar-p">Used for any aside-type information, or alert boxes</p>
           <!--
 /**
  *
@@ -617,7 +623,7 @@
  */
 -->
 <div class="sugar-preview-block">
-      <p class="sugar-example-text">Example</p>
+      <p class="sugar-example-text sugar-p">Example</p>
       <div class="sugar-preview">
         <div class="sugar-example">
 
@@ -628,13 +634,13 @@
 
         </div>
 
-        <pre>
+        <pre class="sugar-pre">
 &lt;p class&#x3D;&quot;note&quot;&gt;
  Lorem Ipsum
 &lt;/p&gt;</pre>
 
       </div>
-      <p class="sugar-example-text">Example</p>
+      <p class="sugar-example-text sugar-p">Example</p>
       <div class="sugar-preview">
         <div class="sugar-example">
 
@@ -645,13 +651,13 @@
 
         </div>
 
-        <pre>
+        <pre class="sugar-pre">
 &lt;p class&#x3D;&quot;note alert&quot;&gt;
  Lorem Ipsum
 &lt;/p&gt;</pre>
 
       </div>
-</div>        
+</div>
           <!--
 /**
  *
@@ -676,7 +682,7 @@
                     <span class="sugar-tag-description">Signifies an important note</span>
             </dd>
   </dl>
-</div>        
+</div>
           <!--
 /**
  *
@@ -684,12 +690,12 @@
  *
  */
 -->
-<p class="sugar-file">File: <span class="sugar-path">library/styles/note/defaults.css</span></p>      
+<p class="sugar-file sugar-p">File: <span class="sugar-path">library/styles/note/defaults.css</span></p>
         </div>
-      
-      
+
+
         <div id="sugar-library-styles-feature-defaults-css-0" class="sugar-component">
-                                
+
           <!--
 /**
  *
@@ -697,8 +703,8 @@
  *
  */
 -->
-      <h3>Feature</h3>
-      <p class="sugar-file-desc">Used for listing chronological content. Numbers hide in small viewport</p>        
+      <h3 class="sugar-h3">Feature</h3>
+      <p class="sugar-file-desc sugar-p">Used for listing chronological content. Numbers hide in small viewport</p>
           <!--
 /**
  *
@@ -707,7 +713,7 @@
  */
 -->
 <div class="sugar-preview-block">
-      <p class="sugar-example-text">Example</p>
+      <p class="sugar-example-text sugar-p">Example</p>
       <div class="sugar-preview">
         <div class="sugar-example">
 
@@ -725,7 +731,7 @@
 
         </div>
 
-        <pre>
+        <pre class="sugar-pre">
 &lt;div class&#x3D;&quot;feature&quot;&gt;
  &lt;div class&#x3D;&quot;feature-item&quot;&gt;
   &lt;h3&gt;Title&lt;/h3&gt;
@@ -738,7 +744,7 @@
 &lt;/div&gt;</pre>
 
       </div>
-</div>        
+</div>
           <!--
 /**
  *
@@ -752,7 +758,7 @@
 
 
   </dl>
-</div>        
+</div>
           <!--
 /**
  *
@@ -760,10 +766,10 @@
  *
  */
 -->
-<p class="sugar-file">File: <span class="sugar-path">library/styles/feature/defaults.css</span></p>      
+<p class="sugar-file sugar-p">File: <span class="sugar-path">library/styles/feature/defaults.css</span></p>
         </div>
-      
-    
+
+
   </div>
 </section>
       
