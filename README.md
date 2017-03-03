@@ -4,6 +4,9 @@ This site is used an an example to test Sugarcoat.
 
 Build:
 
-    `npm i`
-    `grunt css`
-    `sugarcoat documentation/config.js` or `node index.js`
+    npm i
+    grunt css
+
+Then:
+
+`sugarcoat documentation/config.js` or `node index.js`
