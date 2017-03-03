@@ -21,4 +21,5 @@
 .alert {
     background-color: var(--accent-red);
     color: white;
+    border-color: var(--brand-red);
 }
