@@ -48,7 +48,7 @@ var library = {
         {
             title: 'Components',
             files: [
-                'library/styles/note/*.css',
+                'library/styles/notification/*.css',
                 'library/styles/feature/*.css'
             ]
         }
