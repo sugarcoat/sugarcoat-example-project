@@ -12,7 +12,8 @@
     "postcss-reporter": "^1.3.3",
     "postcss-sass-extend": "0.0.1",
     "postcss-url": "^5.1.2",
-    "sugarcoat": "*"
+    "sugarcoat": "*",
+    "util": "^0.10.3"
   },
   "contributors": [
     {

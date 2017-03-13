@@ -317,16 +317,14 @@
         <!--
 /**
  *
- * @title Default comment block partial
+ * @title Partial for Variables component
  *
  */
 -->
-
-<section id="sugar-variables" class="sugar-section sugar-section-default">
+<section id="sugar-variables" class="sugar-section sugar-section-variable">
   <div class="sugar-section-wrapper">
     <h2 class="sugar-h2"><a href="#sugar-variables">Variables</a></h2>
-        <div id="sugar-library-styles-config-variables-css-0" class="sugar-component">
-
+      <div class="sugar-component" id="sugar-library-styles-config-variables-css-0">
           <!--
 /**
  *
@@ -335,28 +333,30 @@
  */
 -->
       <h3 class="sugar-h3">Variables</h3>
-          <!--
-/**
- *
- * @title Partial for Preview of component
- *
- */
--->
-<div class="sugar-preview-block">
-</div>
-          <!--
-/**
- *
- * @title Definition List partial for tags other than the example tag for default comment block
- *
- */
--->
+        <div class="sugar-table-container">
+            <table class="sugar-var-table">
+              <thead>
+                <th>Variable</th>
+                <th>Value</th>
+                <th>Comment</th>
+              </thead>
+                  <tr>
+                    <td><pre>--border</pre></td>
+                    <td><pre>1px solid var(--bg-yellow);</pre></td>
+                    <td>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><pre>--pad</pre></td>
+                    <td><pre>8px 15px;</pre></td>
+                    <td>
+                        <p>Used for form-type elements</p>
+                    </td>
+                  </tr>
+            </table>
+          </div>
 
-<div class="sugar-tag-details">
-  <dl>
-  </dl>
-</div>
-          <!--
+        <!--
 /**
  *
  * @title Partial for file paths
@@ -364,9 +364,7 @@
  */
 -->
 <p class="sugar-file sugar-p">File: <span class="sugar-path">library/styles/config/variables.css</span></p>
-        </div>
-
-
+      </div>
   </div>
 </section>
         <!--
@@ -708,7 +706,7 @@
  */
 -->
       <h3 class="sugar-h3">Feature</h3>
-      <p class="sugar-file-desc sugar-p">Used for listing ordered content. Numbers hide in small viewport</p>
+      <p class="sugar-file-desc sugar-p">Used for listing chronological content. Numbers hide in small viewport</p>
           <!--
 /**
  *
