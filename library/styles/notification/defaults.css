@@ -1,24 +1,24 @@
 /**
  *
- * @title Note
+ * @title Notification
  * @description Used for any aside-type information, or alert boxes
  * @example
- * <p class="note">
+ * <p class="notification">
  *  Lorem Ipsum
  * </p>
  * @example
- * <p class="note alert">
+ * <p class="notification alert">
  *  Lorem Ipsum
  * </p>
  * @modifier .alert Signifies an important note
  *
  */
-.note {
+.notification {
     padding: 15px;
     margin: 15px;
     @extend %backdrop;
 }
-.alert {
+.notification.alert {
     background-color: var(--accent-red);
     color: white;
     border-color: var(--brand-red);
