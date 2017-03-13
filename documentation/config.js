@@ -23,19 +23,19 @@ var library = {
         {
             title: 'Colors',
             files: 'library/styles/config/colors.css',
-            type: 'variable',
+            mode: 'variable',
             template: 'section-color'
         },
         {
             title: 'Typography',
             files: 'library/styles/base/typography.css',
-            type: 'variable',
+            mode: 'variable',
             template: 'section-typography'
         },
         {
             title: 'Variables',
             files: 'library/styles/config/variables.css',
-            type: 'variable'
+            mode: 'variable'
         },
         {
             title: 'Mixins',
@@ -49,7 +49,7 @@ var library = {
             title: 'Components',
             files: [
                 'library/styles/note/*.css',
-                'library/styles/feature/*.css'
+                'components/*.html'
             ]
         }
     ]
