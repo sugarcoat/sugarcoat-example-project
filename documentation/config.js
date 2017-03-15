@@ -17,6 +17,9 @@ var library = {
             assets: [
                 'library/dist/*.css'
             ]
+        },
+        partials: {
+            'head': 'template/head.hbs'
         }
     },
     sections: [
