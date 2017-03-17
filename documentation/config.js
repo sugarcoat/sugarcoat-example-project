@@ -1,22 +1,25 @@
 var library = {
     settings: {
-        title: 'Sugarcoat Pattern Library',
-        graphic: 'library/images/sugarcoat-logo.png',
         dest: './documentation',
-        template: {
-            partials: [
-                'documentation/template/*.hbs'
-            ],
-            assets: [
-                'sugarcoat',
-                'library/images/octicons-external-link.svg',
-                'library/images/sugarcoat-logo.png'
-            ]
-        },
         prefix: {
             assets: [
                 'library/dist/*.css'
             ]
+        }
+
+    },
+    copy: [
+        'sugarcoat',
+        'library/images/octicons-external-link.svg',
+        'library/images/sugarcoat-logo.png'
+    ],
+    display: {
+        graphic: 'library/images/sugarcoat-logo.png',
+        title: 'Sugarcoat Pattern Library'
+    },
+    template: {
+        partials: {
+            'head': 'documentation/template/head.hbs'
         }
     },
     sections: [
