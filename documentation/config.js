@@ -1,21 +1,19 @@
 var library = {
-    settings: {
-        dest: './documentation',
-        prefix: {
-            assets: [
-                'library/dist/*.css'
-            ]
-        }
-
-    },
+    dest: './documentation',
     copy: [
         'sugarcoat',
         'library/images/octicons-external-link.svg',
         'library/images/sugarcoat-logo.png'
     ],
+    include: {
+        css: [
+                'library/dist/*.css'
+            ]
+    },
     display: {
         graphic: 'library/images/sugarcoat-logo.png',
-        title: 'Sugarcoat Pattern Library'
+        title: 'Sugarcoat Pattern Library',
+        headingText: 'text for heading'
     },
     template: {
         partials: {
