@@ -18,7 +18,6 @@ var library = {
         headingText: 'Pattern Library'
     },
     template: {
-        selectorPrefix: '.hello',
         partials: {
             'head': 'documentation/template/head.hbs'
         }
