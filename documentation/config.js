@@ -2,20 +2,20 @@ var library = {
     dest: './documentation',
     copy: [
         'sugarcoat',
-        'library/images/octicons-external-link.svg',
-        'library/images/sugarcoat-logo.png'
+        'library/images/**'
     ],
     include: {
         css: [
-                'library/dist/*.css'
-            ]
+            'library/dist/*.css'
+        ]
     },
     display: {
         graphic: 'library/images/sugarcoat-logo.png',
         title: 'Sugarcoat Pattern Library',
-        headingText: 'text for heading'
+        headingText: 'Pattern Library'
     },
     template: {
+        selectorPrefix: '.hello',
         partials: {
             'head': 'documentation/template/head.hbs'
         }
