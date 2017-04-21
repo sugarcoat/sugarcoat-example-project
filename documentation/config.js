@@ -7,6 +7,9 @@ var library = {
     include: {
         css: [
             'library/dist/*.css'
+        ],
+        js: [
+            'library/js/*.js'
         ]
     },
     display: {
