@@ -4,127 +4,118 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <title>Sugarcoat Pattern Library</title>
-  <link rel="stylesheet" type="text/css" href="sugarcoat/css/sugarcoat.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:300|Arvo:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="library/css/sugarcoat.css">
+
+<link rel="stylesheet" type="text/css" href="sugarcoat/css/sugarcoat.css">
   <link rel="stylesheet" type="text/css" href="sugarcoat/css/prefixed-index.css">
 </head>
 <body>
 
   <div class="sugar-page-wrapper">
-    <nav class="sugar-nav">
 
-      <!--
-/**
- *
- * @title Partial for Masthead with optional Title and Logo
- *
- */
--->
-<div class="sugar-masthead">
-  	<img src="library/images/sugarcoat-logo.png" />
-
-</div>
-      <!--
+    <!--
 /**
  *
  * @title Partial for nav of all components
  *
  */
 -->
+<nav class="sugar-nav">
+  <div class="sugar-masthead">
+    	<img src="library/images/sugarcoat-logo.png" />
+    	<h1>Pattern Library</h1>
+  </div>
 
-<ul id="sugar-nav">
-    <li>
-      <a class="sugar-nav-item" href="#sugar-colors">Colors</a>
-      <ul>
-          <li>
-            <a class="sugar-nav-subitem" href="#sugar-library-styles-config-colors-css-0">
-                Primary Colors
-            </a>
-          </li>
-          <li>
-            <a class="sugar-nav-subitem" href="#sugar-library-styles-config-colors-css-1">
-                Secondary Colors
-            </a>
-          </li>
-      </ul>
-    </li>
-    <li>
-      <a class="sugar-nav-item" href="#sugar-typography">Typography</a>
-      <ul>
-          <li>
-            <a class="sugar-nav-subitem" href="#sugar-library-styles-base-typography-css-0">
-                Font Families
-            </a>
-          </li>
-      </ul>
-    </li>
-    <li>
-      <a class="sugar-nav-item" href="#sugar-variables">Variables</a>
-      <ul>
-          <li>
-            <a class="sugar-nav-subitem" href="#sugar-library-styles-config-variables-css-0">
-                Variables
-            </a>
-          </li>
-      </ul>
-    </li>
-    <li>
-      <a class="sugar-nav-item" href="#sugar-mixins">Mixins</a>
-      <ul>
-          <li>
-            <a class="sugar-nav-subitem" href="#sugar-library-styles-config-mixins-css-0">
-                Bordered element
-            </a>
-          </li>
-          <li>
-            <a class="sugar-nav-subitem" href="#sugar-library-styles-config-mixins-css-1">
-                Retina Image
-            </a>
-          </li>
-      </ul>
-    </li>
-    <li>
-      <a class="sugar-nav-item" href="#sugar-elements">Elements</a>
-      <ul>
-          <li>
-            <a class="sugar-nav-subitem" href="#sugar-library-styles-base-buttons-css-0">
-                Button
-            </a>
-          </li>
-      </ul>
-    </li>
-    <li>
-      <a class="sugar-nav-item" href="#sugar-components">Components</a>
-      <ul>
-          <li>
-            <a class="sugar-nav-subitem" href="#sugar-library-styles-notification-defaults-css-0">
-                Notification
-            </a>
-          </li>
-          <li>
-            <a class="sugar-nav-subitem" href="#sugar-components-feature-html-0">
-                Feature
-            </a>
-          </li>
-      </ul>
-    </li>
-</ul>
-
-    </nav>
+  <ul id="sugar-nav">
+      <li>
+        <a class="sugar-nav-item" href="#sugar-colors">Colors</a>
+        <ul>
+              <li>
+                <a class="sugar-nav-subitem" href="#sugar-library-styles-config-colors-css-0">
+                    Primary Colors
+                </a>
+              </li>
+              <li>
+                <a class="sugar-nav-subitem" href="#sugar-library-styles-config-colors-css-1">
+                    Secondary Colors
+                </a>
+              </li>
+        </ul>
+      </li>
+      <li>
+        <a class="sugar-nav-item" href="#sugar-typography">Typography</a>
+        <ul>
+              <li>
+                <a class="sugar-nav-subitem" href="#sugar-library-styles-base-typography-css-0">
+                    Font Families
+                </a>
+              </li>
+        </ul>
+      </li>
+      <li>
+        <a class="sugar-nav-item" href="#sugar-variables">Variables</a>
+        <ul>
+              <li>
+                <a class="sugar-nav-subitem" href="#sugar-library-styles-config-variables-css-0">
+                    Variables
+                </a>
+              </li>
+        </ul>
+      </li>
+      <li>
+        <a class="sugar-nav-item" href="#sugar-mixins">Mixins</a>
+        <ul>
+              <li>
+                <a class="sugar-nav-subitem" href="#sugar-library-styles-config-mixins-css-0">
+                    Bordered element
+                </a>
+              </li>
+              <li>
+                <a class="sugar-nav-subitem" href="#sugar-library-styles-config-mixins-css-1">
+                    Retina Image
+                </a>
+              </li>
+        </ul>
+      </li>
+      <li>
+        <a class="sugar-nav-item" href="#sugar-elements">Elements</a>
+        <ul>
+              <li>
+                <a class="sugar-nav-subitem" href="#sugar-library-styles-base-buttons-css-0">
+                    Button
+                </a>
+              </li>
+        </ul>
+      </li>
+      <li>
+        <a class="sugar-nav-item" href="#sugar-components">Components</a>
+        <ul>
+              <li>
+                <a class="sugar-nav-subitem" href="#sugar-library-styles-notification-defaults-css-0">
+                    Notification
+                </a>
+              </li>
+              <li>
+                <a class="sugar-nav-subitem" href="#sugar-components-feature-html-0">
+                    Feature
+                </a>
+              </li>
+        </ul>
+      </li>
+  </ul>
+</nav>
 
     <a class="sugar-btn-accordion sugar-nav-toggle">Toggle</a>
 
     <div class="sugar-main">
 
-      <!--
-/**
- *
- * @title Partial for Masthead with optional Title and Logo
- *
- */
--->
-<div class="sugar-masthead">
+      <div class="sugar-masthead">
+        	<img src="library/images/sugarcoat-logo.png" />
+        	<h1>Pattern Library</h1>
+      </div>
 
-</div>
+
         <!--
 /**
  *
@@ -137,7 +128,6 @@
   <h2 class="sugar-h2"><a href="#sugar-colors">Colors</a></h2>
       <div class="sugar-component">
           <div id="sugar-library-styles-config-colors-css-0">
-
             <!--
 /**
  *
@@ -145,9 +135,12 @@
  *
  */
 -->
+
+
       <h3 class="sugar-h3">Primary Colors</h3>
       <p class="sugar-file-desc sugar-p">Client-branded color palette</p>
-            <div class="sugar-colors">              <div class="sugar-color sugar-color-commented">
+            <div class="sugar-colors">
+              <div class="sugar-color sugar-color-commented">
                 <div class="sugar-color-swatch" style="background-color: #703030;">
                 </div>
                 <div class="sugar-color-var">
@@ -156,12 +149,10 @@
                 <div class="sugar-color-val">
                   #703030;
                 </div>
-                <a class="sugar-btn-accordion sugar-accordion-small">
-                  Toggle
-                </a>
-                <div class="sugar-color-comment">
-                  Headlines
-                </div>
+                  <a class="sugar-btn-accordion sugar-accordion-small">Toggle</a>
+                  <div class="sugar-color-comment">
+                    Headlines
+                  </div>
               </div>
               <div class="sugar-color sugar-color-commented">
                 <div class="sugar-color-swatch" style="background-color: #2F343B;">
@@ -172,12 +163,10 @@
                 <div class="sugar-color-val">
                   #2F343B;
                 </div>
-                <a class="sugar-btn-accordion sugar-accordion-small">
-                  Toggle
-                </a>
-                <div class="sugar-color-comment">
-                  Links
-                </div>
+                  <a class="sugar-btn-accordion sugar-accordion-small">Toggle</a>
+                  <div class="sugar-color-comment">
+                    Links
+                  </div>
               </div>
               <div class="sugar-color ">
                 <div class="sugar-color-swatch" style="background-color: #C77966;">
@@ -200,10 +189,8 @@
                 </div>
               </div>
             </div>
-
           </div>
           <div id="sugar-library-styles-config-colors-css-1">
-
             <!--
 /**
  *
@@ -211,8 +198,11 @@
  *
  */
 -->
+
+
       <h3 class="sugar-h3">Secondary Colors</h3>
-            <div class="sugar-colors">              <div class="sugar-color ">
+            <div class="sugar-colors">
+              <div class="sugar-color ">
                 <div class="sugar-color-swatch" style="background-color: #E3CDA4;">
                 </div>
                 <div class="sugar-color-var">
@@ -243,18 +233,14 @@
                 </div>
               </div>
             </div>
+          </div>
 
-          </div><!--
-/**
- *
- * @title Partial for file paths
- *
- */
--->
-<p class="sugar-file sugar-p">File: <span class="sugar-path">library/styles/config/colors.css</span></p>
+        <p class="sugar-file sugar-p">File: <span class="sugar-path">library/styles/config/colors.css</span></p>
+
       </div>
   </div>
 </section>
+
         <!--
 /**
  *
@@ -266,13 +252,16 @@
   <div class="sugar-section-wrapper">
     <h2 class="sugar-h2"><a href="#sugar-typography">Typography</a></h2>
       <div class="sugar-component">
-        <div id="sugar-library-styles-base-typography-css-0"><!--
+        <div id="sugar-library-styles-base-typography-css-0">
+            <!--
 /**
  *
  * @title Partial for Comment Block Titles
  *
  */
 -->
+
+
       <h3 class="sugar-h3">Font Families</h3>
             <div class="sugar-type-file">
                 <div class="sugar-type-container">
@@ -300,17 +289,12 @@
             </div>
         </div>
 
-        <!--
-/**
- *
- * @title Partial for file paths
- *
- */
--->
-<p class="sugar-file sugar-p">File: <span class="sugar-path">library/styles/base/typography.css</span></p>
+        <p class="sugar-file sugar-p">File: <span class="sugar-path">library/styles/base/typography.css</span></p>
+
       </div>
   </div>
 </section>
+
         <!--
 /**
  *
@@ -321,6 +305,7 @@
 <section id="sugar-variables" class="sugar-section sugar-section-variable">
   <div class="sugar-section-wrapper">
     <h2 class="sugar-h2"><a href="#sugar-variables">Variables</a></h2>
+
       <div class="sugar-component" id="sugar-library-styles-config-variables-css-0">
           <!--
 /**
@@ -329,7 +314,10 @@
  *
  */
 -->
+
+
       <h3 class="sugar-h3">Variables</h3>
+
         <div class="sugar-table-container">
             <table class="sugar-var-table">
               <thead>
@@ -337,6 +325,7 @@
                 <th>Value</th>
                 <th>Comment</th>
               </thead>
+
                   <tr>
                     <td><pre>--border</pre></td>
                     <td><pre>1px solid var(--bg-yellow);</pre></td>
@@ -353,17 +342,12 @@
             </table>
           </div>
 
-        <!--
-/**
- *
- * @title Partial for file paths
- *
- */
--->
-<p class="sugar-file sugar-p">File: <span class="sugar-path">library/styles/config/variables.css</span></p>
+        <p class="sugar-file sugar-p">File: <span class="sugar-path">library/styles/config/variables.css</span></p>
+
       </div>
   </div>
 </section>
+
         <!--
 /**
  *
@@ -375,6 +359,8 @@
 <section id="sugar-mixins" class="sugar-section sugar-section-default">
   <div class="sugar-section-wrapper">
     <h2 class="sugar-h2"><a href="#sugar-mixins">Mixins</a></h2>
+
+
         <div id="sugar-library-styles-config-mixins-css-0" class="sugar-component">
 
           <!--
@@ -384,45 +370,33 @@
  *
  */
 -->
+
+
       <h3 class="sugar-h3">Bordered element</h3>
       <p class="sugar-file-desc sugar-p">Grey backdrop for an element with borders</p>
-          <!--
-/**
- *
- * @title Partial for Preview of component
- *
- */
--->
-<div class="sugar-preview-block">
-</div>
-          <!--
-/**
- *
- * @title Definition List partial for tags other than the example tag for default comment block
- *
- */
--->
 
-<div class="sugar-tag-details">
-  <dl>
+          <div class="sugar-preview-block">
 
-            <dt>
-              usage:
+          </div>
 
-            </dt>
-            <dd>
-                <span class="sugar-tag-description">@extend %backdrop;</span>
-            </dd>
-  </dl>
-</div>
-          <!--
-/**
- *
- * @title Partial for file paths
- *
- */
--->
-<p class="sugar-file sugar-p">File: <span class="sugar-path">library/styles/config/mixins.css</span></p>
+          <div class="sugar-tag-details">
+            <dl>
+
+
+
+
+                      <dt>
+                        usage:
+                      </dt>
+
+                      <dd>
+                          <span class="sugar-tag-description">@extend %backdrop;</span>
+                      </dd>
+            </dl>
+          </div>
+
+          <p class="sugar-file sugar-p">File: <span class="sugar-path">library/styles/config/mixins.css</span></p>
+
         </div>
 
 
@@ -435,64 +409,57 @@
  *
  */
 -->
+
+
       <h3 class="sugar-h3">Retina Image</h3>
       <p class="sugar-file-desc sugar-p">Insert to render retina background image on element</p>
-          <!--
-/**
- *
- * @title Partial for Preview of component
- *
- */
--->
-<div class="sugar-preview-block">
-</div>
-          <!--
-/**
- *
- * @title Definition List partial for tags other than the example tag for default comment block
- *
- */
--->
 
-<div class="sugar-tag-details">
-  <dl>
+          <div class="sugar-preview-block">
 
-            <dt>
-              usage:
+          </div>
 
-            </dt>
-            <dd>
-                <span class="sugar-tag-description">.image-2x( $image, $width, $height );</span>
-            </dd>
-            <dt>
-              defaultHeight:
+          <div class="sugar-tag-details">
+            <dl>
 
-            </dt>
-            <dd>
-                <span class="sugar-tag-description">50px</span>
-            </dd>
-            <dt>
-              defaultWidth:
 
-            </dt>
-            <dd>
-                <span class="sugar-tag-description">100px</span>
-            </dd>
-  </dl>
-</div>
-          <!--
-/**
- *
- * @title Partial for file paths
- *
- */
--->
-<p class="sugar-file sugar-p">File: <span class="sugar-path">library/styles/config/mixins.css</span></p>
+
+
+                      <dt>
+                        usage:
+                      </dt>
+
+                      <dd>
+                          <span class="sugar-tag-description">.image-2x( $image, $width, $height );</span>
+                      </dd>
+
+
+                      <dt>
+                        defaultHeight:
+                      </dt>
+
+                      <dd>
+                          <span class="sugar-tag-description">50px</span>
+                      </dd>
+
+
+                      <dt>
+                        defaultWidth:
+                      </dt>
+
+                      <dd>
+                          <span class="sugar-tag-description">100px</span>
+                      </dd>
+            </dl>
+          </div>
+
+          <p class="sugar-file sugar-p">File: <span class="sugar-path">library/styles/config/mixins.css</span></p>
+
         </div>
 
 
   </div>
 </section>
+
         <!--
 /**
  *
@@ -504,6 +471,8 @@
 <section id="sugar-elements" class="sugar-section sugar-section-default">
   <div class="sugar-section-wrapper">
     <h2 class="sugar-h2"><a href="#sugar-elements">Elements</a></h2>
+
+
         <div id="sugar-library-styles-base-buttons-css-0" class="sugar-component">
 
           <!--
@@ -513,85 +482,84 @@
  *
  */
 -->
+
+
       <h3 class="sugar-h3">Button</h3>
-          <!--
-/**
- *
- * @title Partial for Preview of component
- *
- */
--->
-<div class="sugar-preview-block">
-      <p class="sugar-example-text sugar-p">Example</p>
-      <div class="sugar-preview">
-        <div class="sugar-example">
 
-          <a class="btn" href="#">a.btn</a>
+          <div class="sugar-preview-block">
 
-        </div>
+                <p class="sugar-example-text sugar-p">Example</p>
+                <div class="sugar-preview">
+                  <div class="sugar-example">
+                    <a class="btn" href="#">a.btn</a>
+                  </div>
+                  <pre class="sugar-pre">&lt;a class&#x3D;&quot;btn&quot; href&#x3D;&quot;#&quot;&gt;a.btn&lt;/a&gt;</pre>
+                </div>
+                <p class="sugar-example-text sugar-p">Example</p>
+                <div class="sugar-preview">
+                  <div class="sugar-example">
+                    <button class="btn cta">button.btn.cta</button>
+                  </div>
+                  <pre class="sugar-pre">&lt;button class&#x3D;&quot;btn cta&quot;&gt;button.btn.cta&lt;/button&gt;</pre>
+                </div>
+          </div>
 
-        <pre class="sugar-pre">&lt;a class&#x3D;&quot;btn&quot; href&#x3D;&quot;#&quot;&gt;a.btn&lt;/a&gt;</pre>
-
-      </div>
-      <p class="sugar-example-text sugar-p">Example</p>
-      <div class="sugar-preview">
-        <div class="sugar-example">
-
-          <button class="btn cta">button.btn.cta</button>
-
-        </div>
-
-        <pre class="sugar-pre">&lt;button class&#x3D;&quot;btn cta&quot;&gt;button.btn.cta&lt;/button&gt;</pre>
-
-      </div>
-</div>
-          <!--
-/**
- *
- * @title Definition List partial for tags other than the example tag for default comment block
- *
- */
--->
-
-<div class="sugar-tag-details">
-  <dl>
-            <dt>
-              modifier:
+          <div class="sugar-tag-details">
+            <dl>
 
 
-                    <code>.cta</code>
 
-            </dt>
-            <dd>
-                    <span class="sugar-tag-description">primary coloring</span>
-            </dd>
-            <dt>
-              state:
+                      <dt>
+                        modifier:
+
+                              <code>.cta</code>
 
 
-                    <code>:hover</code>
-
-            </dt>
-            <dd>
-                    <span class="sugar-tag-description">transition animation on hover</span>
-            </dd>
 
 
-  </dl>
-</div>
-          <!--
-/**
- *
- * @title Partial for file paths
- *
- */
--->
-<p class="sugar-file sugar-p">File: <span class="sugar-path">library/styles/base/buttons.css</span></p>
+
+                      </dt>
+
+                      <dd>
+
+
+
+                              <span class="sugar-tag-description">primary coloring</span>
+
+                      </dd>
+
+
+                      <dt>
+                        state:
+
+
+                              <code>:hover</code>
+
+
+
+
+                      </dt>
+
+                      <dd>
+
+
+
+                              <span class="sugar-tag-description">transition animation on hover</span>
+
+                      </dd>
+
+
+            </dl>
+          </div>
+
+          <p class="sugar-file sugar-p">File: <span class="sugar-path">library/styles/base/buttons.css</span></p>
+
         </div>
 
 
   </div>
 </section>
+
         <!--
 /**
  *
@@ -603,6 +571,8 @@
 <section id="sugar-components" class="sugar-section sugar-section-default">
   <div class="sugar-section-wrapper">
     <h2 class="sugar-h2"><a href="#sugar-components">Components</a></h2>
+
+
         <div id="sugar-library-styles-notification-defaults-css-0" class="sugar-component">
 
           <!--
@@ -612,84 +582,72 @@
  *
  */
 -->
+
+
       <h3 class="sugar-h3">Notification</h3>
       <p class="sugar-file-desc sugar-p">Used for any aside-type information, or alert boxes</p>
-          <!--
-/**
- *
- * @title Partial for Preview of component
- *
- */
--->
-<div class="sugar-preview-block">
-      <p class="sugar-example-text sugar-p">Example</p>
-      <div class="sugar-preview">
-        <div class="sugar-example">
 
-          
+          <div class="sugar-preview-block">
+
+                <p class="sugar-example-text sugar-p">Example</p>
+                <div class="sugar-preview">
+                  <div class="sugar-example">
+                    
 <p class="notification">
  Lorem Ipsum
 </p>
-
-        </div>
-
-        <pre class="sugar-pre">
+                  </div>
+                  <pre class="sugar-pre">
 &lt;p class&#x3D;&quot;notification&quot;&gt;
  Lorem Ipsum
 &lt;/p&gt;</pre>
-
-      </div>
-      <p class="sugar-example-text sugar-p">Example</p>
-      <div class="sugar-preview">
-        <div class="sugar-example">
-
-          
+                </div>
+                <p class="sugar-example-text sugar-p">Example</p>
+                <div class="sugar-preview">
+                  <div class="sugar-example">
+                    
 <p class="notification alert">
  Lorem Ipsum
 </p>
-
-        </div>
-
-        <pre class="sugar-pre">
+                  </div>
+                  <pre class="sugar-pre">
 &lt;p class&#x3D;&quot;notification alert&quot;&gt;
  Lorem Ipsum
 &lt;/p&gt;</pre>
+                </div>
+          </div>
 
-      </div>
-</div>
-          <!--
-/**
- *
- * @title Definition List partial for tags other than the example tag for default comment block
- *
- */
--->
-
-<div class="sugar-tag-details">
-  <dl>
+          <div class="sugar-tag-details">
+            <dl>
 
 
 
-            <dt>
-              modifier:
 
 
-                    <code>.alert</code>
 
-            </dt>
-            <dd>
-                    <span class="sugar-tag-description">Signifies an important note</span>
-            </dd>
-  </dl>
-</div>
-          <!--
-/**
- *
- * @title Partial for file paths
- *
- */
--->
-<p class="sugar-file sugar-p">File: <span class="sugar-path">library/styles/notification/defaults.css</span></p>
+                      <dt>
+                        modifier:
+
+                              <code>.alert</code>
+
+
+
+
+
+                      </dt>
+
+                      <dd>
+
+
+
+                              <span class="sugar-tag-description">Signifies an important note</span>
+
+                      </dd>
+            </dl>
+          </div>
+
+          <p class="sugar-file sugar-p">File: <span class="sugar-path">library/styles/notification/defaults.css</span></p>
+
         </div>
 
 
@@ -702,21 +660,15 @@
  *
  */
 -->
+
+
       <h3 class="sugar-h3">Feature</h3>
       <p class="sugar-file-desc sugar-p">Used for listing chronological content. Numbers hide in small viewport</p>
-          <!--
-/**
- *
- * @title Partial for Preview of component
- *
- */
--->
-<div class="sugar-preview-block">
-    <p class="sugar-example-text sugar-p">Example</p>
-    <div class="sugar-preview">
-      <div class="sugar-example">
 
-<div class="feature">
+          <div class="sugar-preview-block">
+              <p class="sugar-example-text sugar-p">Example</p>
+              <div class="sugar-preview">
+                <div class="sugar-example"><div class="feature">
  <div class="feature-item">
   <h3>Title</h3>
   <p>Lorem Ipsum</p>
@@ -725,11 +677,8 @@
   <h3>Title</h3>
   <p>Lorem Ipsum</p>
  </div>
-</div>
-
-      </div>
-
-      <pre class="sugar-pre">&lt;div class&#x3D;&quot;feature&quot;&gt;
+</div></div>
+                <pre class="sugar-pre">&lt;div class&#x3D;&quot;feature&quot;&gt;
  &lt;div class&#x3D;&quot;feature-item&quot;&gt;
   &lt;h3&gt;Title&lt;/h3&gt;
   &lt;p&gt;Lorem Ipsum&lt;/p&gt;
@@ -739,36 +688,27 @@
   &lt;p&gt;Lorem Ipsum&lt;/p&gt;
  &lt;/div&gt;
 &lt;/div&gt;</pre>
+              </div>
 
-    </div>
-</div>
-          <!--
-/**
- *
- * @title Definition List partial for tags other than the example tag for default comment block
- *
- */
--->
+          </div>
 
-<div class="sugar-tag-details">
-  <dl>
+          <div class="sugar-tag-details">
+            <dl>
 
-  </dl>
-</div>
-          <!--
-/**
- *
- * @title Partial for file paths
- *
- */
--->
-<p class="sugar-file sugar-p">File: <span class="sugar-path">components/feature.html</span></p>
+
+            </dl>
+          </div>
+
+          <p class="sugar-file sugar-p">File: <span class="sugar-path">components/feature.html</span></p>
+
         </div>
 
 
   </div>
 </section>
-      
+
+        <script src="../library/js/main.js"></script>
+
     </div>
   </div>
 

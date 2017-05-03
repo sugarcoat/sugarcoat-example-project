@@ -5,8 +5,8 @@
 
 {{!--Default sugarcoat head.hbs --}}
 <link rel="stylesheet" type="text/css" href="sugarcoat/css/sugarcoat.css">
-{{#if this.settings.prefix.assets}}
-{{#each this.settings.prefix.assets}}
+{{#if include.css}}
+{{#each include.css}}
   <link rel="stylesheet" type="text/css" href="{{ prefixed }}">
 {{/each}}
 {{/if}}
