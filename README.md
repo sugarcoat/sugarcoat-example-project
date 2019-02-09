@@ -1,6 +1,6 @@
 # Sugarcoat Example Project
 
-This site is used an an example to test Sugarcoat.
+This site is used as an example to test Sugarcoat.
 
 Build:
 
